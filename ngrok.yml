@@ -1,0 +1,29 @@
+# authtoken for registered user only!
+# authtoken: your-auth-token
+authtoken: HiHiUcxCHZfqtDzunght163_9tMWwatzqHellorR7Hihi
+tunnels:
+  # my-host:
+    # using config "subdomain" to use static subdomain with ngrok.com. You need registered with ngrok to have this feature!
+    # for example: subdomain: my-host => bring to public as my-host.ngrok.io
+    # if not use, bring to <random>.ngrok.io
+    # subdomain: my-host
+
+    # using config "host_header" to map to domain run on localhost
+    # host_header: my-local-host.dev
+
+    # bind address as [host]:port, default host = "localhost"
+    # addr: localhost:80
+
+    # proto: http
+  my-host-1:
+    addr: 8181
+    proto: http
+  my-host-2:
+    host_header: my-host-2.dev
+    addr: localhost:8182
+    proto: http
+  my-host-3:
+    subdomain: my-host-3
+    host_header: my-host-3.dev
+    addr: localhost:8183
+    proto: http
