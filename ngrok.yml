@@ -2,8 +2,9 @@
 # authtoken: your-auth-token
 authtoken: HiHiUcxCHZfqtDzunght163_9tMWwatzqHellorR7Hihi
 tunnels:
+  # see more at https://ngrok.com/docs#config
   # my-host:
-    # using config "subdomain" to use static subdomain with ngrok.com. You need registered with ngrok to have this feature!
+    # using config "subdomain" to use static subdomain with ngrok.com. You need pay for ngrok to have this feature!
     # for example: subdomain: my-host => bring to public as my-host.ngrok.io
     # if not use, bring to <random>.ngrok.io
     # subdomain: my-host
